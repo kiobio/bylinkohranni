@@ -1,9 +1,4 @@
 #main_img{
-    background: green;
-    width: calc(100vw - 30px);
-    height: calc(100vh - 65px);
-    position: absolute;
-    top: 0;
-    margin:15px;
-    border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }

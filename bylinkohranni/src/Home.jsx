@@ -2,8 +2,8 @@ import "./Home.css"
 
 function Home() {
   return (
-    <div>
-        <img id="main_img"></img>
+    <div className="body">
+        <img src="./home.jpeg"id="main_img"></img>
     </div>
   );
 }
