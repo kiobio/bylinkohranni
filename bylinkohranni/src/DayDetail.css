@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+}
+#detail{
+    height: calc(100vh - 50px);
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+h3{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+h1{
+   margin: 15px 0;
+   font-size: 2.2em;
+}
+#done{
+   width: 200px;
+   background: green;
+   border-radius: 10px;
+   padding: 10px;
+   font-weight: 900;
+   color: white;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+   margin-top: 10px;
+}
