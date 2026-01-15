@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom"
 import Program from "./program.json"
 import { Link } from "react-router-dom";
 import "./DayDetail.css"
@@ -9,6 +9,7 @@ function DayDetail(){
     const today = Program.find(d => d.day === Number(dayNumber));
     const [done, setDone] = useState(false);
     const tasksDone = JSON.parse(localStorage.getItem("tasks_done"))|| [];
+    const navigate = useNavigate();
 
     useEffect(()=>{
         if(tasksDone && tasksDone.includes(today.day)){
@@ -20,6 +21,9 @@ function DayDetail(){
         tasksDone.push(today.day);
         localStorage.setItem("tasks_done", JSON.stringify(tasksDone));
         document.getElementById("done").remove();
+        setTimeout(function(){
+            navigate("/progress");
+        }, 1000)
     }
 
     function slugify(text) {

@@ -11,13 +11,16 @@
     width: 49%;
     aspect-ratio: 1/1;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .day img{
     width: 100%;
     border-radius: 10px;
 }
-
+.text{
+    margin-left: 5px;
+}
 .text > *{
     margin:0;
     font-size: 15px;
@@ -25,4 +28,10 @@
 a{
     text-decoration: none;
     color: black;
+}
+.day-overlay{
+    background-color: #d4dad4;
+    opacity: 0.5;
+    position: absolute;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5)
 }
