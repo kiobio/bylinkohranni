@@ -5,6 +5,7 @@ import Challenge from "./challenge"
 import Progress from "./progress"
 import './App.css'
 import Day from "./DayDetail"
+import RecipeList from "./RecipeList"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/challenge" element={<Challenge/>}/>
         <Route path="/progress" element={<Progress/>}/>
         <Route path="/challenge/:dayNumber" element={<Day/>}/>
+        <Route path="/recipes-list" element={<RecipeList/>}/>
       </Routes>
       <Footer/>
     </Router>

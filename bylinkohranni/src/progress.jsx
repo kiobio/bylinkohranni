@@ -1,4 +1,6 @@
 import program from "./program.json";
+import { useState } from "react";
+import "./progress.css"
 
 function Progress() {
   const radius = 50;
@@ -7,10 +9,16 @@ function Progress() {
   const y = 60;
   const part = circumference / 100;
 
-  const done = JSON.parse(localStorage.getItem("tasks_done") || "[]").length;
+  const [done, setDone] = useState(JSON.parse(localStorage.getItem("tasks_done") || "[]").length);
+
   const all = program.length;
   const percent = (done * 100) / all;
   const progress = circumference - percent * part;
+
+  function restarProgress(){
+    localStorage.removeItem("tasks_done");
+    setDone(0);
+  }
 
   return (
     <div className="body">
@@ -37,19 +45,14 @@ function Progress() {
             style={{ transform: "rotate(-90deg)", transformOrigin: "50% 50%"}}
           />
         </svg>
-        <div 
-          style={{
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            fontSize: "3rem",
-            fontWeight: "bold",
-            color: "#000",
-          }}
-        >
+        <div className="percentage">
           {Math.ceil(percent)}%
         </div>
+      </div>
+      <div id="restart" 
+        onClick={restarProgress}
+      >
+          RESTART
       </div>
     </div>
   );

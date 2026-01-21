@@ -1,0 +1,30 @@
+.burger_body{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+}
+.close_btn{
+    position: absolute;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background: green;
+    right: 5%;
+}
+.title{
+    margin-top: 10px;
+    font-size: 25px;
+}
+.line{
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}

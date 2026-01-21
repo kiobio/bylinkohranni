@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Ajurvédský čaj",
+    "ingredients": [
+      "1 l vody",
+      "1/2 lžičky mletého zázvoru",
+      "1/2 lžičky mleté skořice",
+      "1/4 lžičky mletého kardamomu",
+      "špetka mletého hřebíčku",
+      "špetka černého pepře"
+    ],
+    "instructions": [
+      "Přiveď vodu k varu.",
+      "Přidej všechno koření.",
+      "Vař na mírném ohni 10–15 minut.",
+      "Sceď a pij teplé."
+    ]
+  },
+  {
+    "name": "Zlaté mléko",
+    "ingredients": [
+      "250 ml rostlinného nebo kravského mléka",
+      "1/2 lžičky mleté kurkumy",
+      "špetka černého pepře",
+      "1/2 lžičky mleté skořice",
+      "1/2 lžičky kokosového oleje nebo ghí",
+      "med nebo javorový sirup (volitelně)"
+    ],
+    "instructions": [
+      "Zahřej mléko v malém hrnci (nevař).",
+      "Přidej kurkumu, pepř, skořici a tuk.",
+      "Dobře promíchej a zahřívej 2–3 minuty.",
+      "Doslaď podle chuti a podávej teplé."
+    ]
+  },
+  {
+    "name": "Voda s kurkumou",
+    "ingredients": [
+      "250 ml teplé vody",
+      "1/4 lžičky mleté kurkumy",
+      "špetka černého pepře",
+      "pár kapek citronové šťávy (volitelně)",
+      "lžička medu (volitelně)"
+    ],
+    "instructions": [
+      "Do teplé vody vmíchej kurkumu a černý pepř.",
+      "Přidej citron a med podle chuti.",
+      "Vypij ideálně ráno nalačno."
+    ]
+  }
+]
