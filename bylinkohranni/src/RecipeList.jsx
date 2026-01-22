@@ -3,17 +3,10 @@ import Navigation from "./Navigation"
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import "./RecipeList.css"
+import { slugify } from "./utilities/slugify"
 
 function RecipeList() {
     const [searchValue, setSearchValue] = useState("");
-    function slugify(str) {
-        return str
-            .toLowerCase()
-            .normalize("NFD")
-            .replace(/[\u0300-\u036f]/g, "")
-            .replace(/[^a-z0-9]+/g, "-")
-            .replace(/(^-|-$)/g, "");
-    }
 
     const filteredRecipes = Recipes.filter((recipe)=>{
         const query = searchValue.toLowerCase();
@@ -28,7 +21,7 @@ function RecipeList() {
             <div className="recipes_list">
                 {
                     filteredRecipes.map((recipe) => (
-                        <Link to={`/recipes/${slugify(recipe.name)}`} key={`${recipe.name}`}>
+                        <Link to={`/recepty/${slugify(recipe.name)}`} key={`${recipe.name}`}>
                             <h2>{recipe.name}</h2>
                         </Link>
                     ))

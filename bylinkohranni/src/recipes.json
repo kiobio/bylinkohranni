@@ -10,11 +10,12 @@
       "špetka černého pepře"
     ],
     "instructions": [
-      "Přiveď vodu k varu.",
-      "Přidej všechno koření.",
-      "Vař na mírném ohni 10–15 minut.",
+      "Přiveď vodu k varu. ",
+      "Přidej všechno koření. ",
+      "Vař na mírném ohni 10–15 minut. ",
       "Sceď a pij teplé."
-    ]
+    ],
+    "image": "/public/tea.jpg"
   },
   {
     "name": "Zlaté mléko",
@@ -27,11 +28,12 @@
       "med nebo javorový sirup (volitelně)"
     ],
     "instructions": [
-      "Zahřej mléko v malém hrnci (nevař).",
-      "Přidej kurkumu, pepř, skořici a tuk.",
-      "Dobře promíchej a zahřívej 2–3 minuty.",
-      "Doslaď podle chuti a podávej teplé."
-    ]
+      "Zahřej mléko v malém hrnci (nevař). ",
+      "Přidej kurkumu, pepř, skořici a tuk. ",
+      "Dobře promíchej a zahřívej 2–3 minuty. ",
+      "Doslaď podle chuti a podávej teplé. "
+    ],
+    "image":"/public/milk.jpg"
   },
   {
     "name": "Voda s kurkumou",
@@ -43,9 +45,10 @@
       "lžička medu (volitelně)"
     ],
     "instructions": [
-      "Do teplé vody vmíchej kurkumu a černý pepř.",
-      "Přidej citron a med podle chuti.",
-      "Vypij ideálně ráno nalačno."
-    ]
+      "Do teplé vody vmíchej kurkumu a černý pepř. ",
+      "Přidej citron a med podle chuti. ",
+      "Vypij ideálně ráno nalačno. "
+    ],
+    "image":"/public/turmeric.jpg"
   }
 ]

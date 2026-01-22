@@ -8,7 +8,13 @@
     padding:15px
 }
 .recipes_list a::after{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #e0dada;
     content: "";
     display: block;
+}
+h2{
+    padding-bottom: 15px;
+}
+#navigation{
+    margin-left: 0px;
 }

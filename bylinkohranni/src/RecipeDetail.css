@@ -1,0 +1,21 @@
+.recipe_detail img{
+    width: 100vw;
+}
+.recipe_detail{
+    margin-bottom: 60px;
+}
+p{
+    padding-bottom: 15px;
+}
+.recipe_text{
+    padding: 0 15px;
+}
+.ingredients{
+    padding-left: 15px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #cfcccc;
+}
+.back{
+    height: 40px;
+    border-bottom: 1px solid #cfcccc;
+}

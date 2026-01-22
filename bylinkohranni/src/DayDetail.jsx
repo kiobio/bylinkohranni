@@ -3,6 +3,7 @@ import Program from "./program.json"
 import { Link } from "react-router-dom";
 import "./DayDetail.css"
 import { useState, useEffect } from "react";
+import { slugify } from "./utilities/slugify";
 
 function DayDetail(){
     const { dayNumber } = useParams();
@@ -24,17 +25,6 @@ function DayDetail(){
         setTimeout(function(){
             navigate("/progress");
         }, 1000)
-    }
-
-    function slugify(text) {
-        return text
-        .normalize("NFD")                 // split letters and diacritics
-        .replace(/[\u0300-\u036f]/g, "")  // remove diacritics
-        .toLowerCase()
-        .trim()
-        .replace(/\s+/g, "-")             // spaces → dashes
-        .replace(/[^a-z0-9-]/g, "")       // remove unsafe chars
-        .replace(/-+/g, "-");             // collapse dashes
     }
 
     return(
