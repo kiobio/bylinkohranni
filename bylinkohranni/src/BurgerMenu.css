@@ -1,10 +1,12 @@
 .burger_body{
     height: 100vh;
-    width: 100vw;
+    width: 75vw;
     background-color: blue;
     position: absolute;
     top: 0px;
     z-index: 3;
+    transform: translateX(-101%);
+    transition: transform 0.8s ease, opacity 0.8s ease;
 }
 .close_btn{
     position: absolute;
@@ -27,4 +29,36 @@
 .list{
     display: flex;
     flex-direction: column;
+}
+.open{
+  transform: translateX(1px);
+}
+.popUp{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: rgba(128, 128, 128, 0.8);
+
+}
+.unlock_box{
+    width: 90vw;
+    height: 200px;
+    background: white;
+    position: fixed;
+    left: 5vw;
+    top: 50%;
+    color: black;
+    padding: 10px 0;
+    font-size: 20px;
+    transform: translateY(-50%);
+}
+.popUp_btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    height: 60px;
+}
+#heslo{
+    text-align: center;
 }

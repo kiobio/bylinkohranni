@@ -3,8 +3,8 @@
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 80px;
-    padding-bottom: 50px;
+    margin-top: 35px;
+    padding: 15px 15px 50px 15px
 }
 
 .day{

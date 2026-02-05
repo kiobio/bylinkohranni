@@ -1,13 +1,16 @@
-.recipes_list{
+.main_list{
     width: 100vw;
     height: calc(100vh - 130px);
     margin-top: 30px;
 }
-.recipes_list a{
+.detail{
+    margin-bottom: 60px;
+}
+.main_list a{
     display: block;
     padding:15px
 }
-.recipes_list a::after{
+.main_list a::after{
     border-bottom: 1px solid #e0dada;
     content: "";
     display: block;
@@ -15,6 +18,6 @@
 h2{
     padding-bottom: 15px;
 }
-#navigation{
-    margin-left: 0px;
+h4{
+    padding: 10px 0;
 }

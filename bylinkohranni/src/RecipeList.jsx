@@ -2,10 +2,11 @@ import Recipes from "./recipes.json"
 import Navigation from "./Navigation"
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import "./RecipeList.css"
+import "./List.css"
 import { slugify } from "./utilities/slugify"
 
-function RecipeList() {
+function RecipeList({unlocked}) {
+    console.log(unlocked);
     const [searchValue, setSearchValue] = useState("");
 
     const filteredRecipes = Recipes.filter((recipe)=>{
@@ -18,7 +19,7 @@ function RecipeList() {
     return (
         <div>
             <Navigation siteName="Recepty" searchBar value={searchValue} onSearchChange={setSearchValue} />
-            <div className="recipes_list">
+            <div className="main_list">
                 {
                     filteredRecipes.map((recipe) => (
                         <Link to={`/recepty/${slugify(recipe.name)}`} key={`${recipe.name}`}>

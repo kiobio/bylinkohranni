@@ -7,6 +7,8 @@ import './App.css'
 import Day from "./DayDetail"
 import RecipeList from "./RecipeList"
 import RecipeDetail from "./RecipeDetail"
+import MovementList from "./MovementList"
+import MovementDetail from "./MovementDetail"
 
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
         <Route path="/progress" element={<Progress/>}/>
         <Route path="/challenge/:dayNumber" element={<Day/>}/>
         <Route path="/recepty-list" element={<RecipeList/>}/>
+        <Route path="/pohyb-list" element={<MovementList/>}/>
         <Route path="/recepty/:recipeDetail" element={<RecipeDetail/>}/>
+        <Route path="/pohyb/:movementName" element={<MovementDetail/>}/>
       </Routes>
       <Footer/>
     </Router>

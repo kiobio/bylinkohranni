@@ -11,7 +11,9 @@ function Navigation({siteName, searchBar = false, value, onSearchChange}){
             <div id="nav_body">
                 {`${siteName}`}
                 <div id="burger_menu" onClick={() => setOpenMenu(true)}></div>
-                <BurgerMenu open={openMenu} onClose = {() => {setOpenMenu(false)}}/>
+                <BurgerMenu open={openMenu} onClose = {() => {
+                    setOpenMenu(false); 
+                    }}/>
             </div>
             {searchBar && 
             <div id="search_bar">

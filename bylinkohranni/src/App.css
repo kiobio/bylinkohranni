@@ -1,11 +1,9 @@
 
 .body{
-  width: calc(100vw - 30px);
+    width: calc(100vw - 30px);
     height: calc(100vh - 65px);
     position: absolute;
     top: 0;
-    margin:15px;
-    border-radius: 10px;
 }
 
 #footer{
@@ -18,7 +16,7 @@
   justify-content: space-around;
 }
 #footer .footerBtn{
-  background: blue;
+  background: #00483D;
   width: 80px;
   height: 50px;
 }
