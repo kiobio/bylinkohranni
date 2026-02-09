@@ -5,18 +5,26 @@ import { useState } from "react";
 function BurgerMenu({open, onClose}){
     const [popUp, setPopUp] = useState(false);
     const [unlocked, setUnlocked] = useState(false);
-    function addLockedContent(){
+    function showPopUp(){
         setPopUp(true);
     }
 
     function isPasswordCorrect(){
-        //use local storage for passed password
         const input = document.getElementById("heslo");
         if(input.value === "hovno"){
             setUnlocked(true);
+            localStorage.setItem("bylinkohrani_unlocked", true);
+            input.value = "odemčeno";
+            setTimeout(()=>{
+                closePopUp()
+            }, 1500)
         }else{
             input.value = "neplatné heslo";
         }
+    }
+
+    function closePopUp(){
+        setPopUp(false);
     }
 
     return(
@@ -29,7 +37,10 @@ function BurgerMenu({open, onClose}){
             <Link to="/recepty-list" className="line recepies">Recepty</Link>
             <Link to ="/pohyb-list" className="line movement">Pohyb</Link>
             <Link to ="/recommendation-list" className="line recommendation">Doporučení</Link>
-            <div className="line" onClick={() => addLockedContent()}>bylinkohraní 2026</div>
+            { 
+                !unlocked &&
+                <div className="line" onClick={() => showPopUp()}>bylinkohraní 2026</div>
+            }
             </div>
             {
                 popUp &&
@@ -39,7 +50,7 @@ function BurgerMenu({open, onClose}){
                         <input id="heslo"></input>
                         <div className="popUp_btns">
                             <div onClick={() => isPasswordCorrect()}>Odemknout</div>
-                            <div>Zavřít</div>
+                            <div onClick={() => closePopUp()}>Zavřít</div>
                         </div>
                     </div>
                 </div>
