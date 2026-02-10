@@ -22,9 +22,12 @@
 #burger_menu{
     width: 55px;
     height: 100%;
-    background: aqua;
+    background: url("./public/burger.png");
     position: absolute;
     top: 0;
+    background-size: 90% 70%;
+    background-repeat: no-repeat;
+    background-position: center
 
 }
 #search_bar{

@@ -30,3 +30,12 @@ h1{
    transform: translateX(-50%);
    margin-top: 10px;
 }
+#challenge_img{
+    background: url("./den.PNG");
+    width: 100vw;
+    height: 30%;
+    background-size: cover;
+}
+.challenge_text{
+    padding: 0 15px;
+}

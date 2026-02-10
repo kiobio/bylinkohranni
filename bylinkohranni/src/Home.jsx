@@ -4,7 +4,7 @@ import Navigation from "./Navigation"
 function Home() {
   return (
     <div className="body">
-        <Navigation siteName="Hlavní stránka"/>
+        <Navigation siteName="" invisible/>
         <img src="./home.jpeg"id="main_img"></img>
     </div>
   );

@@ -30,6 +30,7 @@ function BurgerMenu({open, onClose}){
     return(
         <div className={`burger_body ${open ? "open": ""}`}>
             <div>
+                <img className="icon" src="./icon.jpeg"/>
                 <div className="title">Bylinkohraní</div>
                 <div className="close_btn" onClick = {() => onClose()}></div>
             </div>

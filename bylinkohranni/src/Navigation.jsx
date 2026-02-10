@@ -2,12 +2,12 @@ import "./Navigation.css"
 import { useState } from "react"
 import BurgerMenu from "./BurgerMenu"
 
-function Navigation({siteName, searchBar = false, value, onSearchChange}){
+function Navigation({siteName, searchBar = false, value, onSearchChange, invisible= false}){
     
     const [openMenu, setOpenMenu] = useState(false);
 
     return(
-         <div id="navigation">
+         <div id="navigation" style={invisible ? { background: "transparent" } : {}}>
             <div id="nav_body">
                 {`${siteName}`}
                 <div id="burger_menu" onClick={() => setOpenMenu(true)}></div>
