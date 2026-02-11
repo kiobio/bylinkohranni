@@ -2,53 +2,68 @@
   {
     "name": "Ajurvédský čaj",
     "ingredients": [
-      "1 l vody",
-      "1/2 lžičky mletého zázvoru",
-      "1/2 lžičky mleté skořice",
-      "1/4 lžičky mletého kardamomu",
-      "špetka mletého hřebíčku",
-      "špetka černého pepře"
+      "0,5 l vody",
+      "1–1,5 cm čerstvého zázvoru (nakrájený na plátky)",
+      "1/2 čajové lžičky kurkumy (cca 1 g)",
+      "2–3 zrnka černého pepře",
+      "1/2 malé kůry skořice nebo 1/4–1/2 lžičky mleté skořice",
+      "1/2 čajové lžičky fenyklových semínek",
+      "šťáva z 1/4 citronu",
+      "1/2 lžičky medu (volitelně)"
     ],
     "instructions": [
-      "Přiveď vodu k varu. ",
-      "Přidej všechno koření. ",
-      "Vař na mírném ohni 10–15 minut. ",
-      "Sceď a pij teplé."
+      "Přiveď k varu 0,5 l vody. ",
+      "Přidej zázvor, kurkumu, pepř, skořici a fenykl. ",
+      "Sniž teplotu a nech mírně probublávat 10–15 minut. ",
+      "Odstav a nech louhovat dalších 5 minut. ",
+      "Přeceď, přidej citronovou šťávu a med až po scezení. "
     ],
-    "image": "/public/tea.jpg"
+    "warning":[
+      "Kurkumu neužívej déle než měsíc v kuse. Nevhodné pro osoby s problémy se žlučníkem. "
+    ],
+    "image": "/public/ajurvedsky_caj.jpeg"
   },
   {
     "name": "Zlaté mléko",
     "ingredients": [
-      "250 ml rostlinného nebo kravského mléka",
-      "1/2 lžičky mleté kurkumy",
+      "250 ml běžného nebo rostlinného mléka",
+      "1/2 lžičky kurkumy (ideálně čerstvě mleté)",
       "špetka černého pepře",
-      "1/2 lžičky mleté skořice",
-      "1/2 lžičky kokosového oleje nebo ghí",
-      "med nebo javorový sirup (volitelně)"
+      "1/2 lžičky skořice",
+      "špetka mletého zázvoru nebo cca 1 cm čerstvého nastrouhaného",
+      "1 lžička kokosového oleje nebo ghí",
+      "med nebo javorový sirup podle chuti (až nakonec)"
     ],
     "instructions": [
-      "Zahřej mléko v malém hrnci (nevař). ",
-      "Přidej kurkumu, pepř, skořici a tuk. ",
-      "Dobře promíchej a zahřívej 2–3 minuty. ",
-      "Doslaď podle chuti a podávej teplé. "
+      "Do malého rendlíku dej mléko a všechno koření a tuk. ",
+      "Zahřívej na mírném ohni, nevař – cca 5–10 minut, občas promíchej. ",
+      "Sundej z plotny a nech chvilku odstát. ",
+      "Doslaď až nakonec. ",
+      "Pij teplé, ideálně pomalu. "
     ],
-    "image":"/public/milk.jpg"
+    "warning": [
+       "Kurkumu neužívej déle než měsíc v kuse. Nevhodné pro osoby s problémy se žlučníkem. "
+    ],
+    "image": "/public/milk.jpg"
   },
   {
     "name": "Voda s kurkumou",
     "ingredients": [
-      "250 ml teplé vody",
-      "1/4 lžičky mleté kurkumy",
+      "250 ml teplé vody (ne horké)",
+      "1/4 lžičky mleté kurkumy nebo cca 1–2 cm čerstvé nastrouhané",
       "špetka černého pepře",
-      "pár kapek citronové šťávy (volitelně)",
-      "lžička medu (volitelně)"
+      "pár kapek citronové šťávy (volitelné)",
+      "1/2 lžičky medu (volitelné, až do vlažné vody)"
     ],
     "instructions": [
-      "Do teplé vody vmíchej kurkumu a černý pepř. ",
-      "Přidej citron a med podle chuti. ",
-      "Vypij ideálně ráno nalačno. "
+      "Do teplé vody přidej kurkumu a pepř. ",
+      "Dobře promíchej (kurkuma se úplně nerozpustí – to je v pořádku). ",
+      "Přidej citron a případně med. ",
+      "Vypij hned, ideálně ráno nalačno. "
     ],
-    "image":"/public/turmeric.jpg"
+    "warning":[
+      "Kurkumu neužívej déle než měsíc v kuse. Nevhodné pro osoby s problémy se žlučníkem. "
+    ],
+    "image": "/public/R.jpeg"
   }
 ]

@@ -53,17 +53,20 @@ function DayDetail() {
             <div id="challenge_img"></div>
             <div className="challenge_text">
                 <h1>{today.title}</h1>
-                <h3>Pohyb dne: {today.movementType}</h3>
-                <p>{today.movementText}</p>
-                <p>{today.duration}</p>
-                <div>
-                    <h4>ranní detox dnešního dne:</h4>
-                    <Link to={`/recepty/${slugify(today.morningDetox)}`}>
-                        <h3>{today.morningDetox}</h3>
-                    </Link>
+                <p className="border">{today.movementType}</p>
+                <div className="border day_tab">
+                    <h4>Pohyb dne: </h4><p>{today.movementText}</p>
                 </div>
-                <div>
-                    <h2>záměr dne: {today.dailyFocus}</h2>
+                <div className="border day_tab">
+                    <h4>Trvání</h4><p>{today.duration}</p>
+                </div>
+                <div className="border">
+                     <Link className="day_tab" to ={`/recepty/${slugify(today.morningDetox)}`}>
+                        <h4>Detox dnešního dne</h4><p>{today.morningDetox}</p>
+                     </Link>
+                </div>
+                <div className="border day_tab">
+                    <h4>Záměr dne</h4><p>{today.dailyFocus}</p>
                 </div>
             </div>
 

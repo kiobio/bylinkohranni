@@ -25,6 +25,15 @@ function RecipeDetail(){
                     <h4>Instrukce</h4>
                     <p>{recipe.instructions}</p>
                 </div>
+                <div>
+                    {
+                        recipe.warning &&
+                        <div>
+                            <h4>Upozornění</h4>
+                            <p>{recipe.warning}</p>
+                        </div>
+                    }
+                </div>
             </div>
         </div>
     )
