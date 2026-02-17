@@ -1,18 +1,8 @@
 [
-  {
-    "name": "Tai Chi",
-    "text": "Pomalý a plynulý pohyb podporující uzemnění, rovnováhu a harmonii těla i mysli."
-  },
-  {
-    "name": "Jóga",
-    "text": "Jemná práce s tělem a dechem, která uvolňuje napětí a podporuje vnitřní klid."
-  },
-  {
-    "name": "Chůze",
-    "text": "Přirozený pohyb, který podporuje lehkost, vědomé vnímání a spojení s okolím."
-  },
-  {
-    "name": "Regenerace",
-    "text": "Vědomý odpočinek zaměřený na dech, uvolnění a obnovu sil."
-  }
+    {
+        "name": "Tai Chi"
+    },
+    {
+        "name": "Jóga"
+    }
 ]

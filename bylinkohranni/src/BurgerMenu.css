@@ -1,7 +1,7 @@
 .burger_body{
     height: 100vh;
     width: 75vw;
-    background-color: blue;
+    background-color: white;
     position: absolute;
     top: 0px;
     z-index: 3;
@@ -13,8 +13,8 @@
     top: 10px;
     width: 30px;
     height: 30px;
-    background: green;
     right: 5%;
+    background: url("/close.png");
 }
 .title{
     margin-top: 10px;
@@ -24,7 +24,7 @@
     text-align: left;
     padding: 20px;
     font-size: 20px;
-    color: white;
+    color: black;
 }
 .list{
     display: flex;
