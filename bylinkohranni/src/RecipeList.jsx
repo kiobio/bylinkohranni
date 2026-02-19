@@ -4,12 +4,21 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 import "./List.css"
 import { slugify } from "./utilities/slugify"
+import unlockedRecipes from "./UnlockedRecipes.json"
 
 function RecipeList({unlocked}) {
     console.log(unlocked);
     const [searchValue, setSearchValue] = useState("");
+    let allRecipes;
+    if(localStorage.getItem("bylinkohrani_unlocked")){
+        allRecipes = [...Recipes, ...unlockedRecipes];
+        console.log(allRecipes);
+        console.log(unlockedRecipes)
+    }else{
+        allRecipes = Recipes
+    }
 
-    const filteredRecipes = Recipes.filter((recipe)=>{
+    const filteredRecipes = allRecipes.filter((recipe)=>{
         const query = searchValue.toLowerCase();
         return(
             recipe.name.toLowerCase().includes(query)

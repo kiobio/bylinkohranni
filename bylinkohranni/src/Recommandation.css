@@ -1,0 +1,13 @@
+.recommandation{
+    padding: 0 15px;
+    margin-bottom: 60px;
+}
+
+.last_paragraph {
+  border-bottom: solid 1px #cfcccc;
+  padding-bottom: 10px;
+}
+
+.recommandation h2{
+    padding-top: 15px;
+}

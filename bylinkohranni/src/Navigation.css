@@ -1,7 +1,7 @@
 #navigation{
     position: fixed;
     top: 0;
-    background: gray;
+    background: #e1ece1;
     height: fit-content;
     width: 100vw;
     text-align: center;
@@ -13,7 +13,7 @@
     width: 100%;
     height: 30px;
     font-size: 15px;
-    color: white;
+    color: black;
     font-family: bold;
     padding-top: 5px;
 
@@ -34,7 +34,7 @@
     width: 100%;
     position: absolute;
     height: 45px;
-    background: gray;
+    background: #e1ece1;
     top: 34px;
 }
 #search{
@@ -42,5 +42,5 @@
     border-radius: 10px;
     height: 25px;
     margin-top: 5px;
-    background: lightgray;
+    background: #e7eae7;
 }

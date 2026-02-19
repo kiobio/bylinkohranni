@@ -1,7 +1,8 @@
 .main_list{
     width: 100vw;
-    height: calc(100vh - 130px);
-    margin-top: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    min-height: 100vh;
 }
 .detail{
     margin-bottom: 60px;

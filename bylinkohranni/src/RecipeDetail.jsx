@@ -3,11 +3,13 @@ import Recipes from "./recipes.json"
 import { slugify } from "./utilities/slugify"
 import "./RecipeDetail.css"
 import { Link } from "react-router-dom"
+import unlockedRecipes from "./UnlockedRecipes.json"
 
 function RecipeDetail(){
     const {recipeDetail} = useParams();
+    const allRecipes = [...Recipes, ...unlockedRecipes];
 
-    const recipe = Recipes.find(recept => slugify(recept.name) === recipeDetail);
+    const recipe = allRecipes.find(recept => slugify(recept.name) === recipeDetail);
 
     return(
         <div className="recipe_detail">

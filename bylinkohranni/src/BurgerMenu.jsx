@@ -2,46 +2,50 @@ import "./BurgerMenu.css"
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-function BurgerMenu({open, onClose}){
+function BurgerMenu({ open, onClose }) {
     const [popUp, setPopUp] = useState(false);
     const [unlocked, setUnlocked] = useState(false);
-    function showPopUp(){
+    function showPopUp() {
         setPopUp(true);
     }
 
-    function isPasswordCorrect(){
+    function isPasswordCorrect() {
         const input = document.getElementById("heslo");
-        if(input.value === "hovno"){
+        if (input.value === "hovno") {
             setUnlocked(true);
             localStorage.setItem("bylinkohrani_unlocked", true);
             input.value = "odemčeno";
-            setTimeout(()=>{
+            setTimeout(() => {
                 closePopUp()
             }, 1500)
-        }else{
+        } else {
             input.value = "neplatné heslo";
         }
     }
 
-    function closePopUp(){
+    function closePopUp() {
         setPopUp(false);
     }
 
-    return(
-        <div className={`burger_body ${open ? "open": ""}`}>
+    return (
+        <div className={`burger_body ${open ? "open" : ""}`}>
             <div>
-                <img className="icon" src="./icon.jpeg"/>
+                <img className="icon" src="./icon.jpeg" />
                 <div className="title">Bylinkohraní</div>
-                <div className="close_btn" onClick = {() => onClose()}></div>
+                <div className="close_btn" onClick={() => onClose()}></div>
             </div>
             <div className="list">
-            <Link to="/recepty-list" className="line recepies">Recepty</Link>
-            <Link to ="/pohyb-list" className="line movement">Pohyb</Link>
-            <Link to ="/recommendation-list" className="line recommendation">Doporučení</Link>
-            { 
-                !unlocked &&
-                <div className="line" onClick={() => showPopUp()}>bylinkohraní 2026</div>
-            }
+                <Link to="/recepty-list" className="line recepies">Recepty</Link>
+                <Link to="/pohyb-list" className="line movement">Pohyb</Link>
+                <Link to="/recommendation-list" className="line recommendation">Doporučení</Link>
+                {
+                    !localStorage.getItem("bylinkohrani_unlocked") && (
+                        <div className="line" onClick={() => showPopUp()}>
+                            bylinkohraní 2026
+                        </div>
+                    )
+                }
+
             </div>
             {
                 popUp &&
@@ -56,7 +60,7 @@ function BurgerMenu({open, onClose}){
                     </div>
                 </div>
             }
-            
+
         </div>
     )
 }

@@ -21,7 +21,7 @@
     "warning":[
       "Kurkumu neužívej déle než měsíc v kuse. Nevhodné pro osoby s problémy se žlučníkem. "
     ],
-    "image": "/public/ajurvedsky_caj.jpeg"
+    "image": "/ajurvedsky_caj.jpeg"
   },
   {
     "name": "Zlaté mléko",
@@ -44,7 +44,7 @@
     "warning": [
        "Kurkumu neužívej déle než měsíc v kuse. Nevhodné pro osoby s problémy se žlučníkem. "
     ],
-    "image": "/public/milk.jpg"
+    "image": "/milk.jpg"
   },
   {
     "name": "Voda s kurkumou",
@@ -64,6 +64,6 @@
     "warning":[
       "Kurkumu neužívej déle než měsíc v kuse. Nevhodné pro osoby s problémy se žlučníkem. "
     ],
-    "image": "/public/R.jpeg"
+    "image": "/R.jpeg"
   }
 ]

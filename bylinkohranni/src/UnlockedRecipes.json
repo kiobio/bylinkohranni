@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Ústní bylinková voda",
+    "ingredients": [
+      "30 g sušené šalvěje (alternativa: tymián)",
+      "15 g celé skořice",
+      "25 g hřebíčku",
+      "1 litr převařené vody",
+      "100 ml vodky (konzervant)",
+      "10 kapek mátového esenciálního oleje"
+    ],
+    "instructions": [
+      "Sušenou šalvěj, skořici a hřebíček vsyp do sklenice. ",
+      "Přelij vroucí vodou tak, aby byly všechny ingredience ponořené. ",
+      "Zakryj a nech louhovat přes noc. ",
+      "Druhý den přeceď přes sítko nebo plátýnko. ",
+      "Přidej alkohol a esenciální olej a promíchej. ",
+      "Nalij do uzavíratelné lahve. "
+    ],
+    "warning": [
+      "Nevhodné pro děti a těhotné nebo kojící ženy (kvůli šalvěji). ",
+      "Nepolykat – určeno k výplachu úst. "
+    ],
+    "image": "/mouthwash.PNG"
+  },
+  {
+    "name": "Měsíčková mast (metoda za studena)",
+    "ingredients": [
+      "50 ml měsíčkového oleje",
+      "7,5 g včelího vosku",
+      "2 kapky vitamínu E",
+      "volitelně: bambucké máslo",
+      "volitelně: esenciální oleje"
+    ],
+    "instructions": [
+      "Ve vodní lázni zahřej měsíčkový olej. ",
+      "Přidej včelí vosk a míchej, dokud se nerozpustí. ",
+      "Volitelně přidej bambucké máslo nebo esenciální oleje. ",
+      "Směs nech mírně vychladnout a přidej vitamín E. ",
+      "Nalij do čisté dózy a nech ztuhnout. "
+    ],
+    "warning": [
+      "Pouze k zevnímu použití. ",
+      "Skladuj v lednici pro delší trvanlivost. "
+    ],
+    "image": "/calendula.jpg"
+  },
+  {
+    "name": "Čajová směs na nachlazení",
+    "ingredients": [
+      "30 g prvosenky jarní",
+      "10 g bezového květu",
+      "10 g plodu černého bezu",
+      "10 g drceného šípku",
+      "volitelně: máta, meduňka nebo jitrocel"
+    ],
+    "instructions": [
+      "Všechny byliny smíchej do homogenní směsi. ",
+      "Na 1 hrnek použij 1–2 lžičky směsi. ",
+      "Zalij horkou vodou (ne vroucí). ",
+      "Nech louhovat 10 minut. ",
+      "Pij teplé. "
+    ],
+    "warning": [
+      "Při těhotenství nebo chronických potížích konzultuj užívání s odborníkem."
+    ],
+    "image": "/green-tea-cup.jpg"
+  },
+  {
+    "name": "Domácí Eucasol sprej",
+    "ingredients": [
+      "2 lžíce isopropylalkoholu",
+      "6 lžic destilované vody",
+      "7 kapek rozmarýnového esenciálního oleje",
+      "5 kapek mátového esenciálního oleje",
+      "3 kapky jalovcového esenciálního oleje",
+      "5 kapek eukalyptového esenciálního oleje",
+      "5 kapek borovicového esenciálního oleje"
+    ],
+    "instructions": [
+      "Smíchej alkohol s destilovanou vodou ve sprejové lahvi. ",
+      "Přidej esenciální oleje. ",
+      "Před každým použitím protřepej. ",
+      "Aplikuj na oblečení, kapesník nebo polštář. "
+    ],
+    "warning": [
+      "Nepoužívej přímo na pokožku obličeje nebo sliznice. ",
+      "Uchovávej mimo dosah dětí. "
+    ],
+    "image": "/eucasol.PNG"
+  },
+  {
+    "name": "Magnéziový deodorant",
+    "ingredients": [
+      "28 g magnéziového oleje (chlorid hořečnatý : voda 1:1)",
+      "1/4 lžičky glycerinu",
+      "12 kapek esenciálního oleje dle výběru"
+    ],
+    "instructions": [
+      "Smíchej magnéziový olej s glycerinem. ",
+      "Přidej esenciální oleje. ",
+      "Nalij do spreje nebo roll-onu. ",
+      "Aplikuj podle potřeby. "
+    ],
+    "warning": [
+      "Může způsobit mírné brnění při nedostatku hořčíku. ",
+      "Nepoužívej na poraněnou pokožku. "
+    ],
+    "image": "/deodorant.PNG"
+  },
+  {
+    "name": "Jelení lůj z měsíčku",
+    "ingredients": [
+      "13 g měsíčkového oleje",
+      "13 g bambuckého másla",
+      "4 g včelího vosku",
+      "2 kapky mátového oleje",
+      "volitelně: 1 kapka vitamínu E"
+    ],
+    "instructions": [
+      "Ve vodní lázni zahřej olej, bambucké máslo a vosk. ",
+      "Míchej, dokud se směs nespojí. ",
+      "Nech mírně vychladnout a přidej esenciální olej. ",
+      "Nalij do tuby nebo dózy a nech ztuhnout v mrazáku. "
+    ],
+    "warning": [
+      "Pouze k zevnímu použití."
+    ],
+    "image": "/jeleni_luj.PNG"
+  }
+]

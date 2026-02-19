@@ -9,6 +9,7 @@ import RecipeList from "./RecipeList"
 import RecipeDetail from "./RecipeDetail"
 import MovementList from "./MovementList"
 import MovementDetail from "./MovementDetail"
+import Recommandation from "./Reccomandation"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/pohyb-list" element={<MovementList/>}/>
         <Route path="/recepty/:recipeDetail" element={<RecipeDetail/>}/>
         <Route path="/pohyb/:movementName" element={<MovementDetail/>}/>
+        <Route path="/recommendation-list" element={<Recommandation/>}/>
       </Routes>
       <Footer/>
     </Router>
