@@ -42,7 +42,7 @@ function Progress() {
 
   return (
     <div className="body">
-      <div className="circle-container" style={{ position: "relative", width: "100vw" }}>
+      <div className="circle-container" style={{ position: "relative", width: "100vw", top:"10%" }}>
         <svg viewBox="0 0 120 120" preserveAspectRatio="xMidYMid meet" style={{ width: "100%", height: "100%" }}>
           <defs>
             <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">

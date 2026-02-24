@@ -5,28 +5,52 @@ import "./RecipeDetail.css"
 import { Link } from "react-router-dom"
 import unlockedRecipes from "./UnlockedRecipes.json"
 
-function RecipeDetail(){
-    const {recipeDetail} = useParams();
+function RecipeDetail() {
+    const { recipeDetail } = useParams();
     const allRecipes = [...Recipes, ...unlockedRecipes];
 
     const recipe = allRecipes.find(recept => slugify(recept.name) === recipeDetail);
 
-    return(
+    return (
         <div className="recipe_detail">
-            <img src={`${recipe.image}`}/>
+            {recipe.image &&
+                <img src={`${recipe.image}`} />
+            }
+            
             <div className="recipe_text">
                 <h1>{recipe.name}</h1>
                 <div className="back">
-                    <Link to ="/recepty-list">Recepty</Link>
+                    <Link to="/recepty-list">Recepty</Link>
                 </div>
-                <h4>Ingredience</h4>
-                <div className="ingredients">{recipe.ingredients.map((line, i)=>{
-                    return <li key={i}>{line}</li>
-                })}</div>
-                <div>
-                    <h4>Instrukce</h4>
-                    <p>{recipe.instructions}</p>
-                </div>
+
+                {recipe.ingredients &&
+                    <div>
+                        <h4>Ingredience</h4>
+                        <div className="ingredients">{recipe.ingredients.map((line, i) => {
+                            return <li key={i}>{line}</li>
+                        })}</div>
+                    </div>
+                }
+                {recipe.instructions &&
+                    <div>
+                        <h4>Instrukce</h4>
+                        <p>{recipe.instructions}</p>
+                    </div>
+                }
+                {
+                    recipe.mainImage &&
+                    <div>
+                        <img src={`${recipe.mainImage}`} id="recipe_image"/>
+                    </div>
+                }
+                {
+                    recipe.note &&
+                    <div className="notes">
+                        <h4>poznámka:</h4>
+                        <p className="recipe_notes">{recipe.note}</p>
+                    </div>
+                }
+
                 <div>
                     {
                         recipe.warning &&
