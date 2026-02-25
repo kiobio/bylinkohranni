@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Home from "./Home"
 import Footer from "./footer"
-import Challenge from "./challenge"
+import Challenge from "./Challenge"
 import Progress from "./progress"
 import './App.css'
 import Day from "./DayDetail"
