@@ -51,3 +51,6 @@ h1{
     align-items: center;
     color: #00483D;
 }
+.day_tab p{
+    text-align: right;
+}
