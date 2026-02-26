@@ -41,7 +41,7 @@ function BurgerMenu({ open, onClose }) {
                 {
                     !localStorage.getItem("bylinkohrani_unlocked") && (
                         <div className="line" onClick={() => showPopUp()}>
-                            bylinkohraní 2026
+                            Bylinkohraní 2026
                         </div>
                     )
                 }
