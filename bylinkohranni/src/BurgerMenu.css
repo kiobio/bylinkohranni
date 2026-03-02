@@ -20,12 +20,14 @@
 .title{
     margin-top: 10px;
     font-size: 25px;
+    background-color: #e1ece1;
 }
 .line{
     text-align: left;
     padding: 20px;
     font-size: 20px;
     color: black;
+    background-color: #e1ece1;
 }
 .list{
     display: flex;
