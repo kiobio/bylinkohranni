@@ -12,8 +12,6 @@ function RecipeList({unlocked}) {
     let allRecipes;
     if(localStorage.getItem("bylinkohrani_unlocked")){
         allRecipes = [...Recipes, ...unlockedRecipes];
-        console.log(allRecipes);
-        console.log(unlockedRecipes)
     }else{
         allRecipes = Recipes
     }

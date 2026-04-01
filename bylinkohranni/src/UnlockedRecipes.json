@@ -1,183 +1,52 @@
 [
   {
-    "name": "Ústní bylinková voda",
-    "ingredients": [
-      "30 g sušené šalvěje (alternativa: tymián)",
-      "15 g celé skořice",
-      "25 g hřebíčku",
-      "1 litr převařené vody",
-      "100 ml vodky (konzervant)",
-      "10 kapek mátového esenciálního oleje"
-    ],
-    "instructions": [
-      "Sušenou šalvěj, celou skořici a hřebíček vsypte do sklenice a přelijte vroucí vodou, tak aby všechny ingredience byly pod vodou. ",
-      "Zakryjte víčkem a nechejte přes noc louhovat. ",
-      "Na druhý den přeceďte přes sítko nebo plátýnko, přidejte alkohol a esenciální olej a promíchejte. ",
-      "Nalijte do pěkné skleničky a tím máte hotovo a můžete začít s užíváním. "
-    ],
-    "image": "/mouthwash.PNG",
-    "note": "Šalvěj má dezinfekční účinek a je hojivá, ale ne každému chutná. Skořice je dezinfekční, antibakteriální, působí proti zubnímu kazu a skvěle chutná. Hřebíček je antiseptický a svěží. "
-  },
-  {
-    "name": "Měsíčková mast (metoda za studena)",
-    "ingredients": [
-      "50 ml měsíčkového oleje",
-      "7,5 g včelího vosku",
-      "2 kapky vitamínu E",
-      "volitelně: bambucké máslo",
-      "volitelně: esenciální oleje"
-    ],
-    "instructions": [
-      "Nejdříve si vytvoříme měsíčkový olej. ",
-      "Půl (až ¾) zavařovací sklenice sušených měsíčkových květů, zalijeme kvalitním olejem (jojobový/mandlový/olivový), můžeme nahradit slunečnicovým olejem. ",
-      "Necháme stát (ideálně v temnu) po dobu 4-6 týdnů. (min. 2 týdny). ",
-      "Ve vodní lázni rozpustíme měsíčkový olej se včelím voskem. ",
-      "Můžeme přidat trošku bambuckého másla, nebo esenciální oleje pro lepší aroma. ",
-      "Přidáme 2 kapky vitamínu E (není nutné, pokud budeme uchovávat v lednici). ",
-      "Ve vodní lázni rozpustíme měsíčkový olej se včelím voskem. ",
-      "Můžeme přidat trošku bambuckého másla, nebo esenciální oleje pro lepší aroma. ",
-      "Přidáme 2 kapky vitamínu E (není nutné, pokud budeme uchovávat v lednici). "
-    ],
-    "image": "/calendula.jpg",
-    "note": "Chrání suchou a podrážděnou pleť, působí příznivě na rozpraskanou pokožku, na drobné kožní problémy a při masáži lýtek na křečové žíly. "
-  },
-  {
-    "name": "Čajová směs na nachlazení",
-    "ingredients": [
-      "30 g prvosenky jarní",
-      "10 g bezového květu",
-      "10 g plodu černého bezu",
-      "10 g drceného šípku",
-      "volitelně: máta, meduňka nebo jitrocel"
-    ],
-    "instructions": [
-      "Všechny byliny smícháme dohromady, tak abychom vytvořili homogenní směs. ",
-      "Zaléváme horkou vodou  - pozor ne vroucí. ",
-      "Na 1 hrnek zaléváme 1-2 lžičky směsi. ",
-      "Můžeme přidat mátu, meduňku nebo jitrocel. "
-    ],
-    "image": "/green-tea-cup.jpg",
-    "note": "Tip: Kdykoli nás postihne nachlazení, nasadíme antivirotický pětiboj. Sinupret a kalobu (k dostání v lékárně), čaj proti nachlazení, dubové kapky do krku a výplach dutin solným roztokem (pro sebe si tam ještě kápnu jednu kapku tea tree oleje).  K tomu odpočinek, dostatek spánku a nachlazení prostě nemá šanci. "
-  },
-  {
-    "name": "Domácí Eucasol sprej",
-    "ingredients": [
-      "2 lžíce isopropylalkoholu",
-      "6 lžic destilované vody",
-      "7 kapek rozmarýnového esenciálního oleje",
-      "5 kapek mátového esenciálního oleje",
-      "3 kapky jalovcového esenciálního oleje",
-      "5 kapek eukalyptového esenciálního oleje",
-      "5 kapek borovicového esenciálního oleje"
-    ],
-    "instructions": [
-      "Tuto recepturu jsem si vytvořila sama. ",
-      "Vždycky se mi moc líbil Eucasol od firmy Just, ale ten bohužel stojí přes 500 Kč za 50 ml lahvičku. ",
-      "Tak jsem se koukla na obsah a vytvořila si vlastní variaci. ",
-      "Tento recept prosím nešířit."
-    ],
-    "image": "/eucasol.PNG",
-    "note": "Před použití vždycky zatřepejte. Sprej můžete používat na oblečení, na kapesníček, nebo třeba na polštář. Pomáhá na uvolňování ucpaných dýchacích cest a také působé dezinfekčně. "
-  },
-  {
-    "name": "Měsíční olej ",
-    "mainImage": "/flying_oitment.png"
-  },
-  {
-    "name": "Magnéziový deodorant",
-    "ingredients": [
-      "28 g magnéziového oleje (chlorid hořečnatý : voda 1:1)",
-      "1/4 lžičky glycerinu",
-      "sprejová lahvička, nebo rollon ",
-      "12 kapek esenciálního oleje dle výběru"
-    ],
-    "instructions": [
-      "Nejdříve si vyrobíme magnéziový olej. ",
-      "Chlorid hořečnatý smícháme s vodou v poměru 1:1. ",
-      "Mícháme, dokud se zcela nerozpustí. ",
-      "Pak máme 'Magnéziový olej' ",
-      "Olej smícháme s glycerinem a esenciálními oleji, můžeme plnit do připraveného obalu. ",
-      "Možno vyrobit v libovolném množství, jen vždy násobíme počtem dávek. "
-    ],
-    "warning": [
-      "!Pozor! Z počátku užívání, kdy máme možný nedostatek hořčíku můžete pociťovat lehké brnění v oblasti nanesení, Toto brnění odezní a nemusíte se ho obávat."
-    ],
-    "image": "/deodorant.PNG",
-    "note": "V tomto receptu spojujeme příjemné s užitečným. Zbavíme se nežádoucích odérů a přitom si můžeme doplňovat množství magnézia.  Jedná se o transdermální formu hořčíku – vstřebává se přes kůži. V porovnání s orálními formami má transdermální forma jednu z nejvyšších vstřebatelností. Výhodou vstřebávání přes kůži je i to, že obchází průchod trávicím traktem, což někteří z vás uvítají, protože určitě někdo máte zkušenost, že vás požití orální (nekvalitní) formy hořčíku „prohnalo“. Další výhodou je, že transdermálně tělo přijímá pouze tolik hořčíku, kolik potřebuje. "
-  },
-  {
-    "name": "Jelení lůj z měsíčku",
-    "ingredients": [
-      "13 g měsíčkového oleje",
-      "13 g bambuckého másla",
-      "4 g včelího vosku",
-      "2 kapky mátového oleje",
-      "volitelně: 1 kapka vitamínu E"
-    ],
-    "instructions": [
-      "Měsíčkový olej, bambucké máslo a včelí vosk smícháme v lázni, dokud se vše nespojí. ",
-      "Necháme trochu vychladnout a přidáme esenciální olej. ",
-      "Pozor, necháme ztuhnout vždy v mrazáku. ",
-      "Jinak bambucké máslo krystalizuje a vytvoří hrudky. ",
-      "Po zatvrdnutí se může v tubě objevit ve středu dírka. ",
-      "Tu můžeme pak znovu zalít a znovu zchladit v mrazničce. "
-    ],
-    "note": "Regenerační a zklidňující balzám, který poskytuje intenzivní péči i té nejcitlivější pokožce, která vyžaduje jemné zacházení. Je ideální pro suchou, podrážděnou nebo ekzematickou pleť, kterou hloubkově vyživuje a pomáhá obnovovat její přirozenou ochrannou bariéru.",
-    "image": "/jeleni_luj.PNG"
+  "name": "Ústní bylinková voda",
+  "mainImage": "/bylinkova_voda.jpeg"
   },
   {
     "name": "Olejový parfém",
-    "ingredients": [
-      "mandlový olej",
-      "esenciální oleje dle vlastního výběru"
-    ],
-    "instructions": [
-      "Obecný poměr je na 11 gramů oleje ca 10-20 kapek esenciálního oleje"
-    ],
-    "image": "/oil_parfume.PNG",
-    "note": "každý si může namíchat vlastní vůni ( verze pro muže i ženy)"
-  },
-  {
-    "name": "Kapsaicínová mast  - verze za tepla",
-    "ingredients": [
-      "1 hrnek oleje (jojoba/olivový/mandlový/slunečnicový)",
-      "3 lžíce kajenského pepře",
-      "½ hrnku včelího vosku",
-      "15 kapek peprmintového oleje",
-      "4 kapky vitamínu E"
-    ],
-    "instructions": [
-      "Olej s kajenským pepřem pomalu zahříváme ve vodní lázni.",
-      "Teplota oleje nesmí být příliš vysoká.",
-      "Vždy ohříváme za stálého míchání, pak vyndáme z lázně a necháme zchladnout.",
-      "Tento proces opakujeme dokola po dobu několika hodin.",
-      "Pak přidáme včelí vosk, počkáme až se rozpustí a můžeme přidat peprmintový olej."
-    ],
-    "note": [
-      "přírodní pomoc při bolestech různých částí těla ",
-      "Kapsaicin je známé analgetikum nebo lék proti bolesti. ",
-      "Ve skutečnosti byl topický kapsaicin na předpis schválen Úřadem pro potraviny a léčiva (FDA) k léčbě bolesti. ",
-      "Kapsaicin pomáhá zvládat nepohodlí díky svým protizánětlivým vlastnostem. ",
-      "Také znecitlivuje nervové buňky, které přijímají signály bolesti ve vašem těle. ",
-      "Topický (lokálně aplikovaný) kapsaicin zlepšuje bolest spojenou s širokou škálou zdravotních stavů. ",
-      "Systematický přehled například zjistil, že krémy na bázi kajenského oleje byly při snižování bolesti dolní části zad účinnější než placebo. "
-    ],
-    "image":"/kapsaicin.PNG"
-  },
-  {
-    "name": "Meduňková tinktura (Melissa officinalis)",
-    "mainImage": "/medunka_big.png"
-  },
-  {
-    "name": "Kopřivová tinktura (Urtica dioica)",
-    "mainImage": "/kopriva.png"
-  },
-  {
-    "name": "Olejový balzám do tubičky",
-    "mainImage": "/olej.png"
-  },
-  {
-    "name": "Kaštanový gel",
-    "mainImage":"/kastany.png"
+    "mainImage": "/olejovy_parfem.jpeg"
+  },{
+    "name": "Nejlepší čajová směs",
+    "mainImage":"/nejlepsi_caj.jpeg"
+  },{
+    "name": "Domácí Eucasol",
+    "mainImage": "/Eucasol.jpeg"
+  },{
+    "name": "Heřmánkový olej",
+    "mainImage":"/Herman_olej.jpeg"
+  },{
+    "name": "Magneziový deodorant",
+    "mainImage": "/deodorant.jpeg"
+  },{
+    "name": "Měsíčková mast",
+    "mainImage": "/mesicek_mast.jpeg"
+  },{
+    "name":"Měsíční olej",
+    "mainImage":"/mesicni_olej.jpeg"
+  },{
+    "name":"Meduňková tinktura",
+    "mainImage":"/medunkova_tinktura.jpeg"
+  },{
+    "name": "Kopřivová tinktura",
+    "mainImage": "/koprivova_tinktura.jpeg"
+  },{
+    "name": "Měsíčkový balzám",
+    "mainImage": "/mesickovy_balzam.jpeg"
+  },{
+    "name":"Kaštanový gel",
+    "mainImage":"/kastanovy_gel.jpeg"
+  },{
+    "name": "Heřmánkový hydrolant",
+    "mainImage":"/Herman_hydrolant.jpeg"
+  },{
+    "name": "Kostivalový krém",
+    "mainImage": "/Kostivalovy_krem.jpeg"
+  },{
+    "name": "Repelent proti klíšťatům",
+    "mainImage": "/repelent.jpeg"
+  },{
+    "name": "Bylinné tobolky",
+    "mainImage": "/tobolky.jpeg"
   }
 ]

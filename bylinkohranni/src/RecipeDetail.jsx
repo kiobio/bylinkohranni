@@ -13,12 +13,13 @@ function RecipeDetail() {
 
     return (
         <div className="recipe_detail">
+            
             {recipe.image &&
                 <img src={`${recipe.image}`} />
             }
             
             <div className="recipe_text">
-                <h1>{recipe.name}</h1>
+                <h1 style={{textAlign:"center"}}>{recipe.name}</h1>
                 <div className="back">
                     <Link to="/recepty-list">Recepty</Link>
                 </div>
