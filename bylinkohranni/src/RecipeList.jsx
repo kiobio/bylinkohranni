@@ -6,8 +6,7 @@ import "./List.css"
 import { slugify } from "./utilities/slugify"
 import unlockedRecipes from "./UnlockedRecipes.json"
 
-function RecipeList({unlocked}) {
-    console.log(unlocked);
+function RecipeList() {
     const [searchValue, setSearchValue] = useState("");
     let allRecipes;
     if(localStorage.getItem("bylinkohrani_unlocked")){

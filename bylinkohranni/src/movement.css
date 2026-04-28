@@ -2,3 +2,6 @@
     border-bottom: 1px solid #cfcccc;
     padding-bottom: 10px;
 }
+.move_anchor a{
+    display: block;
+}

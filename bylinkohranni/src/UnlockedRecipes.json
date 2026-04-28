@@ -37,7 +37,7 @@
     "name":"Kaštanový gel",
     "mainImage":"/kastanovy_gel.jpeg"
   },{
-    "name": "Heřmánkový hydrolant",
+    "name": "Heřmánkový hydrolát",
     "mainImage":"/Herman_hydrolant.jpeg"
   },{
     "name": "Kostivalový krém",
@@ -48,5 +48,11 @@
   },{
     "name": "Bylinné tobolky",
     "mainImage": "/tobolky.jpeg"
+  },{
+    "name":"Heřmánkový krém",
+    "mainImage":"/Herman_krem.jpeg"
+  },{
+    "name":"Univerzální čistič",
+    "mainImage":"/uni_cistic.jpeg"
   }
 ]

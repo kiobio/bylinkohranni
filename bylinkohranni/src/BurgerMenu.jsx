@@ -4,15 +4,13 @@ import { useState } from "react";
 
 function BurgerMenu({ open, onClose }) {
     const [popUp, setPopUp] = useState(false);
-    const [unlocked, setUnlocked] = useState(false);
     function showPopUp() {
         setPopUp(true);
     }
 
     function isPasswordCorrect() {
         const input = document.getElementById("heslo");
-        if (input.value === "hovno") {
-            setUnlocked(true);
+        if (input.value === "bylinky2026") {
             localStorage.setItem("bylinkohrani_unlocked", true);
             input.value = "odemčeno";
             setTimeout(() => {

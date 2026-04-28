@@ -5,4 +5,8 @@
     position: absolute;
     top: 0;
 }
+*{
+    background: white;
+    color: #00483D;
+}
 

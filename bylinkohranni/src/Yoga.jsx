@@ -16,17 +16,17 @@ function Yoga() {
                 allowfullscreen>
             </iframe>
             <Link to="/pohyb-list" style={{ position: "relative", top: "10px", left: "10px"}}>List Pohybu</Link>
-            <div style={{ padding: "10px", marginTop: "20px" }}>
+            <div class= "move_anchor" style={{ padding: "10px", marginTop: "20px" }}>
                 <h4>Tipy pro další česká videa</h4>
-                <Link to="https://www.youtube.com/watch?v=zs6nDCMmK8k">Jemná jóga pro začátečníky</Link>
-                <Link to="https://www.youtube.com/watch?v=daxW_XZEXr0&list=PLr9EhnQxzIfZG27tvETVwlZOaHvVE14dP&index=4">Jóga a meditace vděčnosti</Link>
-                <Link to="https://www.youtube.com/watch?v=3l_Tn_7ypn8&list=PLr9EhnQxzIfZG27tvETVwlZOaHvVE14dP&index=2">Jóga na odbourání stresu </Link>
-                <Link to="https://www.youtube.com/watch?v=Ji_Yo2efYLI&list=PLr9EhnQxzIfZG27tvETVwlZOaHvVE14dP&index=16">Jóga pro jarní energii</Link>
+                <a href="https://www.youtube.com/watch?v=zs6nDCMmK8k">Jemná jóga pro začátečníky</a>
+                <a href="https://www.youtube.com/watch?v=daxW_XZEXr0&list=PLr9EhnQxzIfZG27tvETVwlZOaHvVE14dP&index=4">Jóga a meditace vděčnosti</a>
+                <a href="https://www.youtube.com/watch?v=3l_Tn_7ypn8&list=PLr9EhnQxzIfZG27tvETVwlZOaHvVE14dP&index=2">Jóga na odbourání stresu </a>
+                <a href="https://www.youtube.com/watch?v=Ji_Yo2efYLI&list=PLr9EhnQxzIfZG27tvETVwlZOaHvVE14dP&index=16">Jóga pro jarní energii</a>
             </div>
             <div style={{ padding: "10px", marginTop: "20px" }}>
                 <h4>Tipy na videa v AJ </h4>
                 <p>Za nás nejlepší cvičitelka jógy, je Adriene. Ať si od ní vyberete cokoliv, nesáhnete vedle</p>
-                <Link to="www.youtube.com/@yogawithadriene">www.youtube.com/@yogawithadriene</Link>
+                <a href="https://www.youtube.com/@yogawithadriene" rel="noopener noreferrer" target="_blank">www.youtube.com/@yogawithadriene</a>
             </div>
 
             <div style={{ padding: "10px", marginBottom: "60px", marginTop: "20px" }}>
